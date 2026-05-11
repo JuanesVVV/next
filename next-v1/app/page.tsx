@@ -1,10 +1,12 @@
+"use client";
+import { useAppContext } from "./contexto/AppContext";
+
 export default function Home() {
+  const { nombre } = useAppContext();
 
   return (
-    <body>
-      <Link href="/">Boton Home</Link>
-      <Link href="/uno">Boton Uno</Link>
-      <Link href="/dos">Boton Dos</Link>
-    </body>
+    <div>
+      <p>Hola {nombre}</p>
+    </div>
   );
 }

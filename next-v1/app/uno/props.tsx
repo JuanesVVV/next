@@ -1,8 +1,7 @@
-export default function Props( { nombre } ) {
-
+export default function Props({ nombre }) {
   return (
     <div>
-      dos
+        {nombre}
     </div>
   );
 }

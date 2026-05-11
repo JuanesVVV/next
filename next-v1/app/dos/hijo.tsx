@@ -1,8 +1,7 @@
-export default function Hijo( { children } ) {
-
-  return (
+export default function Hijo({ children }) {
+    return (
     <div>
-      este es mi hijo {children}
+        este es mi hijo {children}
     </div>
   );
 }
